@@ -1,0 +1,500 @@
+   62  git status 
+   63  git add Котик.jpg 
+   64  git status 
+   65  git commit -m "Котик"
+   66  git remote add origin git@github.com:ivanovkristian2000-tech/git_intro.git
+   67  git remote -v
+   68  git push -u origin main
+   69  ls -al
+   70  cd 101025-ptm/
+   71  git log
+   72  git branch Test
+   73  git branch -v 
+   74  git branch -d Test 
+   75  git checkout 
+   76  git checkout main 
+   77  git branch -v
+   78  git checkout -b Feature
+   79  #!/bin/bash
+   80  USER="Kris"
+   81  date
+   82  echo "Hello $USER!"
+   83  pwd
+   84  ps -ef | grep bioset | grep -v grep | wc -l
+   85  ls -al /etc/passwd | awk '{print $1}'
+   86  ls -al
+   87  cd 101025-ptm/
+   88  ls -al
+   89  cd
+   90  ls -al
+   91  cd /d/ITCAREERHUB/
+   92  cd /git
+   93  cd /d/ITCAREERHUB/Git/
+   94  clear
+   95  mkdir -p Home_Work
+   96  ls -al
+   97  cd Home_Work/
+   98  ls -al
+   99  ls -al
+  100  ./
+  101  git init 
+  102  ls -al
+  103  git status
+  104  git add myfirstbashscript.sh 
+  105  git status
+  106  clear
+  107  git remote add origin git@github.com:ivanovkristian2000-tech/git_home_work.git
+  108  git status
+  109  git push -u origin main
+  110  git commit -m "Home Work"
+  111  git log
+  112  git status
+  113  git push -u origin main
+  114  ls -al
+  115  git config --global user.name "Kris"
+  116  git config -- global user.email "ivanov.kristian2000@gmail.com"
+  117  git config --global -l
+  118  git config -- global user.email "ivanov.kristian2000@gmail.com"
+  119  git config --global user.email ""ivanov.kristian2000@gmail.com"
+  120  git config --global user.email "ivanov.kristian2000@gmail.com"
+  121  git config --global -l
+  122  clear
+  123  git config --global -l
+  124  mkdir -p 060326-ptm
+  125  ls -al
+  126  cd 060326-ptm/
+  127  ls -al
+  128  nano song.txt
+  129  date >> date.txt
+  130  ls -la
+  131  clear
+  132  git init
+  133  ls -al
+  134  ls - al .git
+  135  ls - al .git
+  136  ls - al .git/
+  137  ls -al
+  138  clear
+  139  git status
+  140  git add .
+  141  git status
+  142  git commit -m "Inital commit"
+  143  git log 
+  144  nano song.txt 
+  145  git status 
+  146  git commit -am "Add 4 lines in song.txt"
+  147  git los
+  148  git log
+  149  git remote add origin git@github.com:ivanovkristian2000-tech/060326-ptm.git
+  150  git remote -v
+  151  git push -u origin main
+  152  git push -u origin main
+  153  git push -u origin main
+  154  ls -al
+  155  cd ..
+  156  ls -al
+  157  cd lesen/
+  158  ls -al
+  159  git clone git@github.com:ivanovkristian2000-tech/060326-ptm-Test.git
+  160  ls -al
+  161  cd 060326-ptm-Test/
+  162  ls -al
+  163  git remote -v
+  164  echo "Test" >> Test.txt
+  165  ls -al
+  166  git add .
+  167  git commit -m "Add file Test"
+  168  git push 
+  169  git log 
+  170  exit
+  171  cd ..
+  172  ls -al
+  173  mkdir -p files for GIT
+  174  mkdir -p files_for_GIT
+  175  rm -rf f
+  176  mkdir -p GIT_lesson_file
+  177  mv 'Команды GIT.pdf' GIT_lesson_file/
+  178  cd 06
+  179  cd 060326-ptm/
+  180  mkdir -p git_intro
+  181  ls -al
+  182  cd git_intro/
+  183  git init
+  184  ls -al
+  185  git status
+  186  ls -al
+  187  mv 0ac77ca554ac326e5cd3d13013900346.jpg git_intro/cat.jpg
+  188  ls -al
+  189  cd ..
+  190  ls -al
+  191  ls -al
+  192  mv 0ac77ca554ac326e5cd3d13013900346.jpg git_intro/cat.jpg
+  193  cd git_intro/
+  194  ls -al
+  195  git status
+  196  git add cat.jpg 
+  197  git status
+  198  git commit -m "Added photo"
+  199  git remote add origin git@github.com:ivanovkristian2000-tech/git_intro.git
+  200  git remote -v
+  201  git push -u origin main
+  202  pwd
+  203  cd ..
+  204  ls -al
+  205  cd ..
+  206  ls -al
+  207  cd home_work_py/
+  208  ls -al
+  209  git init
+  210  ls -al
+  211  cp "/d/Програмирование\ Pyhton/PythonProject\ Kris/python_home_work/home_work_10/task_10_01.py" .
+  212  ls -al
+  213  ls -al
+  214  git status 
+  215  git add .
+  216  git status
+  217  git commit -m "Added Python task"
+  218  git remote add origin git@github.com:ivanovkristian2000-tech/home_work_py_10.git
+  219  git push -u origin main 
+  220  exit
+  221  ls -la
+  222  git status
+  223  cd git_intro/
+  224  ls -al
+  225  cat cat.jpg 
+  226  clear
+  227  ls -al
+  228  .
+  229  cd .
+  230  ls -al
+  231  cd ..
+  232  ls -al
+  233  git pull
+  234  git log
+  235  clear
+  236  ls -al
+  237  git branch Test
+  238  git log
+  239  clear
+  240  git branch -v
+  241  git checkout Test
+  242  git branch -v
+  243  git checkout main 
+  244  git branch -d Test 
+  245  git checkout -b NewBranch
+  246  git branch -v
+  247  git log
+  248  ls -al
+  249  echo "Hello nwe branch" >> NewFile.txt
+  250  git status 
+  251  git add NewFile.txt 
+  252  git status 
+  253  git commit -m "Add NewFile.txt"
+  254  ls -al
+  255  git log 
+  256  git checkout main 
+  257  git log
+  258  ls -al
+  259  git branch -v
+  260  git l0g --all
+  261  git checkout NewBranch 
+  262  date >> date.txt 
+  263  git status 
+  264  git add date.txt 
+  265  git commit -m "Edit fiele date"
+  266  git log
+  267  git checkout main 
+  268  git log --all
+  269  git log --oneline --graph -- decorate --all
+  270  git checkout NewBranch 
+  271  git log
+  272  git checkout 4c3a337172b
+  273  git log
+  274  ls -al
+  275  cat date.txt 
+  276  git checkout fcd605ca
+  277  git log
+  278  ls -al
+  279  git checkout main 
+  280  git log
+  281  git checkout NewBranch 
+  282  ls -al
+  283  git log 
+  284  git checkout main 
+  285  git status 
+  286  git commit -am "Added direktori Home work"
+  287  git log 
+  288  git status 
+  289  git add home_work_GIT/
+  290  git status 
+  291  cd home_work_GIT/
+  292  ls -al
+  293  ls - al git_intro/
+  294  cd git_intro/
+  295  ls -al
+  296  clear
+  297  git checkout -b Test-branch
+  298  git branch -v
+  299  git branch -d Test-branch 
+  300  git branch -v
+  301  git branch -v
+  302  git checkout main
+  303  git branch -v
+  304  ls -al
+  305  cd ..
+  306  ls -al
+  307  cd ..
+  308  ls -al
+  309  git branch -v
+  310  git branch -v
+  311  ls -al
+  312  cd home_work_GIT/
+  313  ls -al
+  314  git branch -v
+  315  git branch -v
+  316  cd git_intro/
+  317  git branch -v
+  318  git branch -d Test-branch 
+  319  git branch -v
+  320  cd ..
+  321  ls -al
+  322  cd ..
+  323  ls -al
+  324  cd home_work_GIT/git_intro/
+  325  cd /d/ITCAREERHUB/GIT/060326-ptm/
+  326  ls -al
+  327  > .env
+  328  git status 
+  329  > test.log
+  330  ls -al
+  331  mkdir Tmp
+  332  ls -al
+  333  > Tmp/damp.log
+  334  > Tmp/file.log
+  335  ls -al
+  336  git status 
+  337  nano .gitignor
+  338  ls -al
+  339  git status 
+  340  ls -al
+  341  nano .gitignor
+  342  nano .gitignor
+  343  git status 
+  344  ls -al
+  345  rm -rf gitignor
+  346  ls -al
+  347  rm .gitignor
+  348  ls -al
+  349  git status 
+  350  git add .gitignore 
+  351  git status 
+  352  git commit -m "Add file gitignore and home work"
+  353  git status 
+  354  git checkout NewBranch 
+  355  ls -al
+  356  git status 
+  357  git checkout main 
+  358  git checkout NewBranch 
+  359  nano song.txt 
+  360  git status
+  361  git checkout main 
+  362  git checkout NewBranch 
+  363  nano song.txt 
+  364  git checkout main 
+  365  git checkout main 
+  366  git status 
+  367  cat song.txt 
+  368  git checkout NewBranch 
+  369  git status 
+  370  git stash save "Save song.txt in NewBranch"
+  371  git checkout main
+  372  cat status
+  373  cat song.txt 
+  374  git status
+  375  git checkout NewBranch 
+  376  git stash list 
+  377  sit stash apply 
+  378  sit stash apply stash@{0}:
+  379  sit stash apply stash@{0}
+  380  git stash apply stash@{0}
+  381  git stash apply stash@{0}
+  382  clear
+  383  git stash list 
+  384  git stash apply stasch@{0}
+  385  git stash list 
+  386  git stash pop stash@{0}
+  387  git list
+  388  git stash list 
+  389  ls -al
+  390  git status 
+  391  git clean -xdn
+  392  git clean -xdf
+  393  ls -al
+  394  git checkout main 
+  395  ls -al
+  396  exit 
+  397  ls -al
+  398  ls -al
+  399  git status
+  400  git commit -am "Added home work 11 py."
+  401  git push 
+  402  git status 
+  403  git add home_work_10 home_work_11
+  404  git status 
+  405  git commit -m "Added home work 11 py."
+  406  git status 
+  407  git log
+  408  git push 
+  409  git status 
+  410  exit
+  411  ls -al
+  412  cd home_work_12
+  413  ls -al
+  414  git status 
+  415  cd ..
+  416  ls -al
+  417  git status 
+  418  git commit -am "Added home_work_12.py"
+  419  git status 
+  420  git add .
+  421  git status 
+  422  git commit -m "Added home_work_12.py"
+  423  git push 
+  424  ls -al
+  425  cd ..
+  426  ls -al
+  427  cd 060326-ptm/
+  428  ls -al
+  429  cd home_work_GIT/
+  430  ls -al
+  431  makdir -p git_branch
+  432  mkdir -p git_branch
+  433  cd git_branch/
+  434  git init
+  435  ls -al
+  436  git branch -b gitignore
+  437  git checkout -b gitignore
+  438  git branch 
+  439  > .gitignore
+  440  nano .gitignore
+  441  ls -al
+  442  ls -al
+  443  cat .gitignore 
+  444  clear
+  445  git status 
+  446  git add .
+  447  git status 
+  448  git commit -m "Added gitignore"
+  449  git remote add origin git@github.com:ivanovkristian2000-tech/git_branch.git
+  450  git push -u origin main
+  451  git push -u origin gitingore
+  452  git push -u origin gitignore
+  453  git remote -v
+  454  git status 
+  455  git commit -m "Added"
+  456  git status 
+  457  git pull 
+  458  git checkout -b test-merge
+  459  ls -al
+  460  cat date.txt 
+  461  echo "+++++++++++++++++++++++" >> date.txt 
+  462  git commit -am "Edit 1 date.txt"
+  463  git status 
+  464  date >> date.txt 
+  465  git commit -am "Edit 2 date.txt"
+  466  clear
+  467  git log --onleline
+  468  git log --oneline
+  469  git checkout main 
+  470  git merge test-merge 
+  471  cat date.txt 
+  472  git log --oneline
+  473  ls -al
+  474  git status 
+  475  git commit -am "Added home_work_13,14"
+  476  git status 
+  477  git add .
+  478  git status 
+  479  git commit -m "Added home_work_13,14"
+  480  git status 
+  481  git push 
+  482  git log -g --oneline
+  483  git log 
+  484  ls -al
+  485  cd 060326-ptm/
+  486  git log -g --oneline
+  487  git log
+  488  git log -g --oneline
+  489  git status 
+  490  git commit -am "Added home works 15 and 16"
+  491  git status 
+  492  git add .
+  493  git commit -m "Added home works 15 and 16"
+  494  git push 
+  495  git status 
+  496  git commit -am 'Modifid home work'
+  497  git push 
+  498  #!/bin/bash
+  499  WAY=/opt/06032026
+  500  for FILE in $WAY/*;  do    if [[ $FILE == *.sh ]];      then      chmod +x $FILE;    fi; done
+  501  ls -al
+  502  mkdir -p git_merg
+  503  ls -al
+  504  cd git_merg/
+  505  ls -al
+  506  git init
+  507  ls -al
+  508  git remote add origin git@github.com:ivanovkristian2000-tech/git_merge.git
+  509  sit status
+  510  git status 
+  511  git log
+  512  clear
+  513  git push -u origin main
+  514  git push -u origin main
+  515  git remote add origin git@github.com:ivanovkristian2000-tech/git_merge.git
+  516  git branch -M main
+  517  git push -u origin main
+  518  git remote -v
+  519  ls -al
+  520  nano .gitignor
+  521  git push -u origin main
+  522  git status 
+  523* git commit -am "Added .gitignor and create
+  524  git status 
+  525  git add .
+  526  git status 
+  527  git commit -am "Added .gitignor and create new repository"
+  528  git status 
+  529  git push -u origin main
+  530  ls -al
+  531  cd ..
+  532  ls -al
+  533  rm -rf git_merg/
+  534  ls -al
+  535  mkdir -p git_merge_home_work
+  536  cd git_merge_home_work/
+  537  ls -al
+  538  git clone git@github.com:ivanovkristian2000-tech/git_merge_home_work.git
+  539  ls -al
+  540  cd git_merge_home_work/
+  541  ls -al
+  542  git remote 
+  543  git remote -v
+  544  git checkout -b feature
+  545  git branch 
+  546  nano README.md
+  547  ls -al
+  548  cat .gitignore 
+  549  nano .gitignore 
+  550  git status
+  551  git add .
+  552  git status 
+  553  git commit -m "Added README.md and modified .gitignore"
+  554  git push -u origin feature 
+  555  git commit --amend -m "Added README.md and modified .gitignore ammend"
+  556  git push 
+  557  git checkout main
+  558  git merge feature
+  559  ls -al
+  560  git log --oneline
+  561  history >> history.txt
